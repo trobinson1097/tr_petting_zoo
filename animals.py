@@ -23,14 +23,17 @@ sally = Salamander("Sally", "domestic salamander")
 
 mango = Copperhead("Mango", "wild copperhead")
 
-moe = Donkey("Moe", "domestic donkey", "midday")
+moe = Donkey("Moe", "domestic donkey", "midday", "corn")
 
-eddy = Goat("Eddy", "domestic goat", "afternoon")
+eddy = Goat("Eddy", "domestic goat", "afternoon", "granola")
 
-zoey = Zebra("Zoey", "Domestic zebra", "morning")
+zoey = Zebra("Zoey", "Domestic zebra", "morning", "pizza")
 
-goody = Giraffe("Goody", "domestic giraffe", "midday")
+goody = Giraffe("Goody", "domestic giraffe", "midday", "salad")
 
-miss_fuzz = Llama("Miss Fuzz", "domestic llama", "morning")
+tina = Llama("Tina", "domestic llama", "morning", "slop")
 
-print(f'{goody.name} the {goody.species} is availabe to pet during {goody.shift} shift.')
+#print(f'{goody.name} the {goody.species} is availabe to pet during {goody.shift} shift.')
+
+
+print(tina.feed())
