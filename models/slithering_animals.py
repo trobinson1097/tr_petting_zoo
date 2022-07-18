@@ -13,7 +13,11 @@ class Copperhead:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Salamander:
     """_summary_"""
@@ -28,7 +32,11 @@ class Salamander:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Lizard:
     """_summary_"""
@@ -43,7 +51,11 @@ class Lizard:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Ratsnake:
     """_summary_"""
@@ -58,7 +70,11 @@ class Ratsnake:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Hellbender:
     """_summary_"""
@@ -73,4 +89,8 @@ class Hellbender:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        return f"{self.name} is a {self.species}"

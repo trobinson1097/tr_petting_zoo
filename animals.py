@@ -3,25 +3,25 @@ from models import (Giraffe, Zebra, Donkey, Goat, Llama,
     Blobfish, Goldfish, Angelfish, Pufferfish, Eel)
 
 
-elmo = Eel("Elmo", "electric eel")
+elmo = Eel("Elmo", "electric eel", "spagettie")
 
-poko = Pufferfish("Poko", "pufferfish")
+poko = Pufferfish("Poko", "pufferfish", "ramen")
 
-angie = Angelfish("Angie", "freshwater angelfish")
+angie = Angelfish("Angie", "freshwater angelfish", "tofu")
 
-goldie= Goldfish("Goldie", "bubbleye goldfish")
+goldie= Goldfish("Goldie", "bubbleye goldfish", "fruity pebbles")
 
-boo = Blobfish("Boo", "Blobfish")
+boo = Blobfish("Boo", "Blobfish", "air")
 
-hammy = Hellbender("Hammy", "wild hellbender")
+hammy = Hellbender("Hammy", "wild hellbender", "hammhocks")
 
-randy = Ratsnake("Randy", "wild rat snake")
+randy = Ratsnake("Randy", "wild rat snake", "boiled eggs")
 
-coco = Lizard("Coco", "wild australian gecko")
+coco = Lizard("Coco", "wild australian gecko", "chrickets")
 
-sally = Salamander("Sally", "domestic salamander")
+sally = Salamander("Sally", "domestic salamander", "fried rice")
 
-mango = Copperhead("Mango", "wild copperhead")
+mango = Copperhead("Mango", "wild copperhead", "fish eggs")
 
 moe = Donkey("Moe", "domestic donkey", "midday", "corn")
 
@@ -37,3 +37,4 @@ tina = Llama("Tina", "domestic llama", "morning", "slop")
 
 
 print(tina.feed())
+print(tina)

@@ -13,7 +13,12 @@ class Blobfish:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        """_summary_"""
+        return f"{self.name} is a {self.species}"
 
 class Goldfish:
     """_summary_"""
@@ -28,7 +33,12 @@ class Goldfish:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        """_summary_"""
+        return f"{self.name} is a {self.species}"
 
 class Angelfish:
     """_summary_"""
@@ -43,7 +53,12 @@ class Angelfish:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        """_summary_"""
+        return f"{self.name} is a {self.species}"
 
 class Eel:
     """_summary_"""
@@ -58,7 +73,12 @@ class Eel:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        """_summary_"""
+        return f"{self.name} is a {self.species}"
 
 
 class Pufferfish:
@@ -74,4 +94,9 @@ class Pufferfish:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        """_summary_"""
+        return f"{self.name} is a {self.species}"

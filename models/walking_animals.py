@@ -14,7 +14,12 @@ class Llama:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        """_summary_"""
+        return f"{self.name} is a {self.species}"
 
 class Giraffe:
     """_summary_"""
@@ -28,9 +33,14 @@ class Giraffe:
         self.food = food
         self.walking = True
         self.date_added = date.today()
-        
+
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        """_summary_"""
+        return f"{self.name} is a {self.species}"
 
 class Zebra:
     """_summary_"""
@@ -46,7 +56,12 @@ class Zebra:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        """_summary_"""
+        return f"{self.name} is a {self.species}"
 
 class Goat:
     """_summary_"""
@@ -62,7 +77,12 @@ class Goat:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        """_summary_"""
+        return f"{self.name} is a {self.species}"
 
 class Donkey:
     """_summary_"""
@@ -78,4 +98,9 @@ class Donkey:
         self.date_added = date.today()
 
     def feed(self):
+        """_summary_"""
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+    def __str__(self):
+        """_summary_"""
+        return f"{self.name} is a {self.species}"
